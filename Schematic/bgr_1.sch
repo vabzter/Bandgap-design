@@ -259,17 +259,17 @@ save v(Vdd) v(vbgr_out)
 plot v(vbgr_out) V(Vdd)
 print v(Vbgr_out)
 //save all
-write  /home/vaibhav/sky130-example/bgr_1.raw
+write  /home/sky130-example/bgr_1.raw
 .endc
 "}
-C {/home/vaibhav/share/xschem/xschem_library/devices/vdd.sym} -240 -80 0 1 {name=l21 lab=VSS}
-C {/home/vaibhav/share/xschem/xschem_library/devices/gnd.sym} -240 -20 0 1 {name=l22 lab=GND}
-C {/home/vaibhav/share/xschem/xschem_library/devices/vdd.sym} -240 -80 0 1 {name=l39 lab=VSS}
-C {/home/vaibhav/share/xschem/xschem_library/devices/vsource.sym} -240 -50 0 1 {name=Vss value=0
+C {/home/share/xschem/xschem_library/devices/vdd.sym} -240 -80 0 1 {name=l21 lab=VSS}
+C {/home/share/xschem/xschem_library/devices/gnd.sym} -240 -20 0 1 {name=l22 lab=GND}
+C {/home//share/xschem/xschem_library/devices/vdd.sym} -240 -80 0 1 {name=l39 lab=VSS}
+C {/home/share/xschem/xschem_library/devices/vsource.sym} -240 -50 0 1 {name=Vss value=0
 }
-C {/home/vaibhav/share/xschem/xschem_library/devices/gnd.sym} -240 -20 0 1 {name=l68 lab=GND}
-C {/home/vaibhav/share/xschem/xschem_library/devices/gnd.sym} -150 -20 0 1 {name=l18 lab=GND}
-C {/home/vaibhav/share/xschem/xschem_library/devices/gnd.sym} -150 -20 0 1 {name=l24 lab=GND}
+C {/home/share/xschem/xschem_library/devices/gnd.sym} -240 -20 0 1 {name=l68 lab=GND}
+C {/home/share/xschem/xschem_library/devices/gnd.sym} -150 -20 0 1 {name=l18 lab=GND}
+C {/home/share/xschem/xschem_library/devices/gnd.sym} -150 -20 0 1 {name=l24 lab=GND}
 C {devices/vdd.sym} -150 -80 0 0 {name=l17 lab=VDD}
 C {devices/vsource.sym} -150 -50 0 0 {name=Vdd value=3.3 "pulse 0 3.3 1u 500n 500n 10u 200u"}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 1950 130 0 0 {name=M7
